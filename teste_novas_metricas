@@ -477,6 +477,7 @@ print(f"F1-Score: {f1:.4f}")
 # Muito importante em classificação binária.
 # ------------------------------------------------------------------------------
 
+
 roc_auc = roc_auc_score(y_test, probabilidades)
 
 print(f"ROC AUC: {roc_auc:.4f}")
